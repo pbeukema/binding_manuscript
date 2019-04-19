@@ -11,7 +11,7 @@ end;
 
 
 % Find the squared distance between each finger for each permutations 
-n_voxels = size(y_data_pre,2);
+n_voxels = size(beta_w,2);
 num_pairs = combnk(1:size(nU,3),2);
 for pair = 1:size(num_pairs,1);
     for finger1 = 1:size(nU,1);
