@@ -1,7 +1,7 @@
 
-function [H, dhat] = rsa_evalCorrectTrials(beta_w, n_betas)
+function [H, dhat] = rsa(beta_w, n_betas)
 
-%function [H, dhat] = rsa_evalCorrectTrials(y_raw, SPM, plot_flag, fold_size)
+%function [H, dhat] = rsa(beta_w, n_betas)
 
 i=0;
 for j=[1:n_betas:size(beta_w,1)];
